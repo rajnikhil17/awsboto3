@@ -25,9 +25,3 @@ for i in range(len(AWS_Regions)):
 		print ("Volume Size:::",snapshots['Snapshots'][i]['VolumeSize'])
 	 
 
-
-
-
-
-images = client.describe_images(Owners=['self'])
-print(images)
